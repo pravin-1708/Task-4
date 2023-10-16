@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.border {
+    outline: 3px solid white;
+    border-radius: 10%;
+    overflow: hidden;
+    outline-offset: -30px;
+}
+
+.heading {
+    position: relative;
+    right: 50vw;
+    left: 50vw;
+    color: white;
+    background-color: #1f1627;
+    width: 78px;
+    top: 38px;
+    text-align: center;
+
+}
+
+.section {
+    background-color: #1f1627;
+    padding: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 4px;
+}
+
+.section h1::first-letter {
+
+    font-size: 90px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: lighter;
+}
+
+.section i {
+    position: relative;
+    bottom: 12px;
+}
+
+.section2 {
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/img2.jpg");
+    width: 100%;
+    padding: 70px;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    bottom: 75px;
+
+}
+
+.section2 h1 {
+    color: black;
+
+}
+
+.section2 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section2_content {
+    width: 400px;
+    color: black;
+    position: relative;
+    left: 30px;
+    font-size: smaller;
+}
+
+.section3 {
+    padding: 90px;
+    background-image: url('../img/img3.jpeg');
+    color: white;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    z-index: -1;
+    bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    margin-bottom: 10px;
+}
+
+
+
+.section3 span {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+
+.section3 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section3 p {
+    width: 500px;
+    position: relative;
+    left: 170px;
+    bottom: 20px;
+    font-size: smaller;
+}
+
+.section4 {
+    background-image: url('../img/img4.avif');
+    padding: 50px;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    z-index: -1;
+    bottom: 14.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section4 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section4 span {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+
+}
+
+.section4 p {
+    width: 500px;
+    position: relative;
+    left: 130px;
+    font-size: smaller;
+    bottom: 20px;
+}
+
+.section5 {
+    background-image: url('../img//img5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    z-index: -1;
+    bottom: 18.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section5 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+
+}
+
+.section5 span {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+
+.section5 p {
+    width: 500px;
+    font-size: smaller;
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+}
+
+.section6 {
+    background-image: url('../img/img6.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    padding: 50px;
+    z-index: -1;
+    bottom: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section6 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section6 span {
+    position: relative;
+    bottom: 30px;
+    left: 45px;
+}
+
+.section6 p {
+    width: 500px;
+    font-size: smaller;
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+}
+
+.section7 {
+    background-image: url('../img//img7.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: pink;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    position: relative;
+    bottom: 26rem;
+    z-index: -1;
+
+}
+
+.section7 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section7 .section7_content {
+    margin-top: 20px;
+    width: 500px;
+    font-size: smaller;
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+}
+
+.section8 {
+    background: url('../img/img8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    z-index: -1;
+    bottom: 30rem;
+    position: relative;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section8 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section8 p {
+    margin-top: 20px;
+    width: 500px;
+    font-size: smaller;
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+}
+
+.section9 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    bottom: 35rem;
+    background: url("../img/img9.jpg");
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    z-index: -1;
+}
+
+.section9 h1::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 90px;
+    font-weight: lighter;
+}
+
+.section9 p {
+    width: 500px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 120px;
+}
+
+.section10 {
+    position: relative;
+    bottom: 39rem;
+    height: 200px;
+    background-color: #dbdcde;
+    padding: 50px;
+    font-size: smaller;
+}
+.section10_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #dbdcde;
+
+}
+
+.section10_left {
+    width: 700px;
+}
+
+.section10_right {
+    width: 300px;
+}
+footer {
+    height: 0;
+    margin: 0%;
+    padding: 0;
+}
+.footer-text{
+    position: relative;
+    bottom: 39rem;
+    display: flex;
+    justify-content: space-around;
+}
